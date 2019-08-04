@@ -1,0 +1,48 @@
+html{
+    font-size: 62.5%;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+.main-container{
+    background-color: #f4ff1b;
+    height: 981px;
+}
+
+/* REUTILIZABLES */
+
+.no-margin{
+    margin: 0;
+}
+
+.marginAuto{
+    margin: 0 auto;
+}
+
+
+
+
+/* CONSTRUCCION PAGE */
+
+.img-construction{
+    display: block;
+    margin: 0 auto;
+}
+
+.construction p {
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.icon-email{
+    width: 10rem;
+}
+
+.icon-instagram{
+    width: 8.5rem;
+    margin-left: 4rem;
+}
+
+.post-construction{
+    text-align: center;
+}

@@ -26,6 +26,7 @@ html{
 .img-construction{
     display: block;
     margin: 0 auto;
+
 }
 
 .construction p {
@@ -36,13 +37,29 @@ html{
 
 .icon-email{
     width: 10rem;
+    margin-right: 1rem;
+    margin-left: 0.2rem;
 }
 
 .icon-instagram{
     width: 8.5rem;
-    margin-left: 4rem;
+    margin-left: 2rem;
 }
 
 .post-construction{
     text-align: center;
+}
+
+@media(max-width:720px){
+    .img-construction{
+        width: 50%;
+    }
+
+    .icon-email{
+        width: 7rem;
+    }
+    
+    .icon-instagram{
+        width: 6.1rem;
+    }
 }
